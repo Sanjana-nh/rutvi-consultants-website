@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f8f8f8;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px; /* Increased logo size */
+}
+
+.company-name {
+    font-size: 40px; /* Eye-catching font size */
+    font-weight: bold;
+    color: #080a00; /* contrast color from your logo */
+    margin-left: 10px;
+}
+
+/* Navbar */
+nav a {
+    margin-left: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #444;
+}
+
+nav a:hover {
+    color: #D4FF34;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(to right, #505d3d, #D4FF34); /* Gradient background */
+    color: white;
+}
+
+.hero h1 {
+    font-size: 2.8em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+/* Services */
+.services {
+    padding: 50px;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.service-box {
+    background: #fff;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.service-box h3 {
+    margin: 10px 0;
+    color: #444;
+    font-size: 1.5em;
+}
+
+/* Why Choose Us */
+.whychooseus {
+    padding: 50px;
+    background: #f7f7f7;
+    text-align: center;
+}
+
+.whychooseus h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.whychooseus ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+    display: inline-block;
+    font-size: 1.2em;
+}
+
+.whychooseus li {
+    margin: 10px 0;
+}
+
+/* Contact Section */
+.contact {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(to left,#505d3d, #D4FF34); /* Gradient background */
+    color: white;
+}
+
+
+.contact p {
+    font-size: 1.2em;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #ffff33;
+    font-weight: bold;
+}
